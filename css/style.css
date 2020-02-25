@@ -1,0 +1,66 @@
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+.card-img-top {
+    width: 177.33px;
+    height: 177.33px;
+}
+
+.card-body {
+    align-items: center;
+}
+
+.card {
+    box-sizing: content-box;
+    width: 30%;
+    height: inherit;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    border-width: 1px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 8%;
+    align-items: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgb(246, 5, 5), 0 10px 10px rgb(246, 5, 5);
+}
+
+#show-time {
+    float: left;
+}
+
+#show-artist {
+    float: left;
+}
+
+#show-city {
+    float: left;
+}
+
+#show-place {
+    float: right;
+}
+
+#show-cell {
+    border: 1px solid black;
+}
+
+.shows {
+    margin-bottom: 30px;
+}
+
+#footer {
+    padding-bottom: 60px;
+    height: 50px;
+}
