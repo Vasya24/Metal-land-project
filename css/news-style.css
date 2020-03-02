@@ -1,3 +1,7 @@
+.logo-image {
+    height: 55px;
+}
+
 a:hover {
     text-decoration: none;
     color: inherit;
@@ -36,39 +40,10 @@ a {
     box-shadow: 0 14px 28px rgb(246, 5, 5), 0 10px 10px rgb(246, 5, 5);
 }
 
-#show-time {
-    float: left;
-}
-
-#show-artist {
-    float: left;
-}
-
-#show-city {
-    float: left;
-}
-
-#show-place {
-    float: right;
-}
-
-#show-cell {
-    border: 1px solid black;
-}
-
 section {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 30px;
-}
-
-#shows,
-#reports {
-    height: 400px;
-}
-
-.logo-image {
-    height: 55px;
 }
 
 .btn-danger {
