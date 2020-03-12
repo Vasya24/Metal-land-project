@@ -14,11 +14,11 @@ a {
     border-top-right-radius: 8%;
     border-bottom-left-radius: 8%;
     border-bottom-right-radius: 8%;
-    /* filter: brightness(40%); */
+    filter: brightness(25%);
 }
 
 .card-title {
-    text-decoration-color: #ffffff;
+    color: #ffffff;
 }
 
 .card-body {
@@ -36,7 +36,7 @@ a {
 .card {
     transition: .5s ease-in-out;
     box-sizing: content-box;
-    width: 436px;
+    max-width: 436px;
     height: 177px;
     margin-bottom: 15px;
     margin-left: 5px;
