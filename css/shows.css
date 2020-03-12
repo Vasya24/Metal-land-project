@@ -1,0 +1,12 @@
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+.logo-image {
+    height: 55px;
+}
