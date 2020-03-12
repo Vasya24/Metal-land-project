@@ -6,12 +6,17 @@ window.onload = () => {
             crds[i].style.cursor = 'pointer';
             crds[i].style.height = '250px';
             crds[i].querySelector('.card-img-top').style.filter = 'blur(3px) brightness(25%)';
+            // crds[i].addEventListener('DOMContentLoaded', function() {
+            //     crds[i].querySelector('.card-text').style.visibility = 'visible'
+            // });
 
         };
         crds[i].onmouseout = () => {
             crds[i].style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.5)';
             crds[i].style.height = '177px';
             crds[i].querySelector('.card-img-top').style.filter = 'brightness(25%)';
+            // crds[i].querySelector('.card-text').ready(style.visibility = 'hidden');
         }
     }
+    let
 }
