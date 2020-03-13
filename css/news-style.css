@@ -11,45 +11,43 @@ a {
     color: inherit;
 }
 
-.card-img-top {
-    width: 177.33px;
-    height: 177.33px;
+.logo-image {
+    height: 55px;
 }
 
-.card-body {
-    align-items: center;
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    filter: brightness(25%);
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+.card-text {
+    transition: .3s ease-out;
+    height: 50px;
+    visibility: hidden;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card {
+    transition: .7s ease-out;
     box-sizing: content-box;
-    width: 30%;
-    height: inherit;
+    max-width: 436px;
+    height: 177px;
     margin-bottom: 15px;
     margin-left: 5px;
     margin-right: 5px;
-    padding-top: 5px;
     border-width: 1px;
     border-style: ridge;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.22);
     border-radius: 8%;
-    align-items: center;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-.card:hover {
-    box-shadow: 0 14px 28px rgb(246, 5, 5), 0 10px 10px rgb(246, 5, 5);
-}
-
-section {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 30px;
-}
-
-.btn-danger {
-    background-color: green;
-    height: 50px;
-    margin-left: 90px;
-    margin-bottom: auto;
-    margin-top: auto;
 }

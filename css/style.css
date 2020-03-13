@@ -7,43 +7,6 @@ a {
     color: inherit;
 }
 
-.card-img-top {
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 8%;
-    border-top-right-radius: 8%;
-    border-bottom-left-radius: 8%;
-    border-bottom-right-radius: 8%;
-    filter: brightness(25%);
-}
-
-.card-title {
-    color: #ffffff;
-}
-
-.card-text {
-    transition: .3s ease-out;
-    height: 50px;
-    visibility: hidden;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.card {
-    transition: .7s ease-out;
-    box-sizing: content-box;
-    max-width: 436px;
-    height: 177px;
-    margin-bottom: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-width: 1px;
-    border-style: ridge;
-    border-color: rgba(0, 0, 0, 0.22);
-    border-radius: 8%;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
 #show-time {
     float: left;
     background-color: #db9f73;
