@@ -1,3 +1,12 @@
+html {
+    background-color: #000000;
+}
+
+body {
+    background-color: #000000;
+    scroll-behavior: smooth;
+}
+
 a:hover {
     text-decoration: none;
     color: inherit;
@@ -7,50 +16,29 @@ a {
     color: inherit;
 }
 
-#show-time {
-    float: left;
-    background-color: #db9f73;
-}
-
-#show-artist {
-    float: left;
-    background-color: #db9f73;
-}
-
-#show-city {
-    float: left;
-    background-color: #db9f73;
-}
-
-#show-place {
-    float: right;
-    background-color: #db9f73;
-}
-
-#show-cell {
-    border: 1px solid black;
-    background-color: #db9f73;
-}
-
 section {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 30px;
-}
-
-#shows,
-#reports {
-    height: 400px;
+    height: 100%;
 }
 
 .logo-image {
     height: 55px;
 }
 
-.btn-danger {
-    background-color: green;
-    height: 50px;
-    margin-left: 90px;
-    margin-bottom: auto;
-    margin-top: auto;
+.navbar {
+    background-color: rgba( 95, 95, 95, 0.3)
+}
+
+.col-head {
+    font-size: 20px;
+    font-style: italic;
+    background-color: 
+}
+
+.container-fluid {
+    border: 5px double rgba( 254, 19, 19, 0.3);
+}
+
+.show {
+    border: 0.5px solid rgba( 254, 19, 19, 0.3);
+    height: 30px;
 }
