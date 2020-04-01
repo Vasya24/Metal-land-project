@@ -15,39 +15,51 @@ a {
     height: 55px;
 }
 
-.card-img-top {
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 8%;
-    border-top-right-radius: 8%;
-    border-bottom-left-radius: 8%;
-    border-bottom-right-radius: 8%;
-    filter: brightness(25%);
-}
-
-.card-title {
-    color: #ffffff;
-}
-
-.card-text {
-    transition: .3s ease-out;
-    height: 50px;
-    visibility: hidden;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 .card {
-    transition: .7s ease-out;
-    box-sizing: content-box;
-    max-width: 436px;
-    height: 177px;
-    margin-bottom: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-width: 1px;
-    border-style: ridge;
-    border-color: rgba(0, 0, 0, 0.22);
-    border-radius: 8%;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.card:nth-child(1n+1) {
+    margin-top: 10px;
+}
+
+.card-content {
+    width: 100%;
+    font-size: 0.8em;
+    transition: 1s ease-in-out;
+}
+
+.card-header {
+    font-weight: bold;
+    color: #e3710d;
+}
+
+.card_text {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    word-wrap: wrap;
+}
+
+.card-image {
+margin-top: 2%;
+}
+
+.card-content {
+    background-color: black;
+    transition: 1s ease-in-out;
+}
+
+.page-item.active .page-link {
+    background-color: #fa3232;
+    border-color: #ffffff;
+}
+
+.page-link:hover {
+    background-color: #13ce04;
 }
