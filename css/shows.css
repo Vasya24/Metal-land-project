@@ -13,4 +13,10 @@ a {
 
 .month {
     text-align: center;
+    background-color: #13ce04;
+    font-size: 1.5em
+}
+
+.hidden {
+    display: none;
 }
