@@ -1,0 +1,43 @@
+.pictures_box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 468px;
+    margin-right: 468px;
+    width: 600px;
+    height: 375px;
+}
+
+.styles {
+    width: 300px;
+    background-image: url("../img/rock-tree.jpg");
+    text-align: center;
+    opacity: 0.7;
+    z-index: 3;
+    transition: 500ms ease-in-out;
+}
+
+.bands {
+    width: 300px;
+    /* background-image: url("../img/helvete.JPG"); */
+    text-align: center;
+    background: filter(url("../img/helvete.JPG"), blur(7px));
+    opacity: 0.7;
+    transition: 500ms ease-in-out;
+    
+}
+
+.styles-sign,
+.bands-sign {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2em;
+    color: #ffffff;
+    display: block;
+    margin-top: 150px;
+    backdrop-filter: blur(5px)
+}
+
+.hidden {
+    opacity: 0;
+}
